@@ -28,4 +28,13 @@ Feature selection is crucial for determining which variables are most significan
 * SHAP.ipynb: SHAP utilizes Shapley values from cooperative game theory to decompose model predictions into the contributions of individual features. It could analyze the impact of each feature on the prediction efficacy by calculating their marginal contributions under various conditions. Features are ranked according to the absolute values of their SHAP scores, with higher absolute values indicating a greater influence on the prediction.
 
 * RSF.ipynb: The dataset was partitioned into training and validation sets with a 7:3 ratio, with the former used for model development. Multiple feature sets, combining the base one along with diverse IR indices, were fed into a Random Survival Forest (RSF), which predicted the mortality risk in critically ill stroke patients. Multiple performance metrics were used to evaluate the models in the validation cohort, including the accompanying area under the curve (AUC), Accuracy, Sensitivity, Specificity, Positive Predictive Value (PPV), Negative Predictive Value (NPV), F1 Score, and Matthew's Correlation Coefficient (MCC), ensuring reliability and consistency. 
-  
+
+
+## Models introduction  
+For the RSF models mentioned in the article, we saved the "*.PKL" format file of the models in the branch named "Model", including 1 base model and 3 optimized models of IR indices.  
+
+* rsf_base_model.pkl: 
+
+* 
+
+* 
