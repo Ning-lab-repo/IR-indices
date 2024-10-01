@@ -1,1 +1,1 @@
-# This branch contains models associated with the article titled "Machine learning-based comparisonand optimization of TyG, TvG-BMl, and TG/HDL-c indices for short- and long-term mortality prediction in critically ilstroke patients".
+This branch contains models associated with the article titled "Machine learning-based comparisonand optimization of TyG, TvG-BMl, and TG/HDL-c indices for short- and long-term mortality prediction in critically ilstroke patients".
